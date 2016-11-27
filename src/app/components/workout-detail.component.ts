@@ -4,7 +4,7 @@ import {WorkoutsService} from "../services/workouts.service";
 import {ActivatedRoute, Params} from "@angular/router";
 import {Workout} from "../models/workout";
 @Component ({
-  selector: '',
+  selector: 'app-root',
   templateUrl: 'workout-detail.component.html',
   providers: [
     WorkoutsService
