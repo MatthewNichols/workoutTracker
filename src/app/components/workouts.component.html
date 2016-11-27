@@ -1,0 +1,7 @@
+<h1>
+  {{title}}
+</h1>
+
+<div *ngFor="let workout of workouts" (click)="gotoWorkout(workout)">
+  <h4>{{workout.name}}</h4>
+</div>
