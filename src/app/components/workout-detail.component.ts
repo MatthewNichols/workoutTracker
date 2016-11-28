@@ -6,6 +6,7 @@ import {Workout} from "../models/workout";
 @Component ({
   selector: 'app-root',
   templateUrl: 'workout-detail.component.html',
+  styleUrls: ['workout-detail.component.scss'],
   providers: [
     WorkoutsService
   ]

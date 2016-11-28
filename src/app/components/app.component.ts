@@ -6,12 +6,12 @@ import {Workout} from "../models/workout";
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  styleUrls: ['app.component.css'],
+  styleUrls: ['app.component.scss'],
   providers: [WorkoutsService]
 })
 export class AppComponent {
 
-  title = 'app works!!!!';
+  title = 'Workout Tracker';
   workouts: Workout[];
 
   constructor(

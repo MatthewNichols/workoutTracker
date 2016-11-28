@@ -6,7 +6,7 @@ import {Workout} from "../models/workout";
 @Component({
   selector: 'app-root',
   templateUrl: 'workouts.component.html',
-  //styleUrls: ['workouts.component.css'],
+  styleUrls: ['workouts.component.scss'],
   providers: [WorkoutsService]
 })
 export class WorkoutsComponent implements OnInit {

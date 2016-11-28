@@ -1,7 +1,13 @@
+<a routerLink="/workouts" routerLinkActive="active">Workouts</a>
+
 <div *ngIf="workout">
   <h2>{{workout.name}}</h2>
 
   <ul *ngFor="let set of workout.sets">
-    <li>{{set.title}}</li>
+    <li>
+      <set-root
+       [set]="set">
+      </set-root>
+    </li>
   </ul>
 </div>
